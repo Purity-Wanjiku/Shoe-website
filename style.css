@@ -1,0 +1,415 @@
+.body{
+    background-color: rgb(229, 231, 235);
+}
+#Home{
+    color: rgb(241, 40, 90);
+    
+}
+.Logo{
+border: solid;
+}
+#Logo{
+    width: 5%;
+border: solid;
+}
+.nav{
+    display: flex;
+}
+.navbar li{
+    list-style: none;
+    display: inline-flex;
+    padding: 0px 30px 0 30px;
+    font-size: 20px;
+    font-weight: 600;
+    /* border: solid; */
+    position: relative;
+    margin: -1px;
+}
+.navbar{
+    position: absolute;
+    margin: 0px 20px 10px 0;
+    padding: 20px 0px;
+    
+}
+#Signup{
+    padding: 18px 1px;
+    text-align: center;
+}
+#heading{
+    margin-top: 80px;
+}
+#fix{
+    color: rgb(241, 40, 90);
+}
+#heading{
+    font-size: 32px;
+    font-weight: 1400;
+    padding-left: 60px;
+}
+.heading{
+    padding-left: 60px;
+}
+.button{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+    border-radius: 6px;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    background-color: rgb(241, 40, 90);
+    color: white;
+    border: rgb(241, 40, 90);
+}
+#button{
+    padding-left: 60px;
+}
+.button1{
+    cursor: pointer;
+    border-radius: 100%;
+    padding: 20px 25px 20px 23px;
+    background-color: rgb(241, 40, 90);
+    border: rgb(241, 40, 90);
+    color: white;
+    
+
+}
+#button1{
+    padding-left: 12px;
+}
+.egg-like{
+    float: right;
+    width:500px;
+    height: 700px;
+    background-color: rgb(241, 40, 90);
+    border-radius: 350px / 250px 0px 0px 750px;
+}
+.top{
+    /* display: flex; */
+}
+#Sports{
+    border-radius: 16px;
+    width: 20%;
+    height: 40%;
+    margin: 0px 80px 0px 0px;
+    /* margin-right: 80%; */
+    margin-left: 60%;
+
+}
+#collection{
+    text-align: center;
+    font-size: 42px;
+    font-weight: 1400;
+    margin-top: 7%;
+}
+
+.form1{
+    border: solid white;
+    background-color: white;
+    display: flex;
+    padding-right: 20px;
+    border-radius: 36px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: left;
+    margin-left: 80px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#button-a{
+    cursor: pointer;
+    border-radius: 12px;
+    padding: 20px 25px 20px 20px;
+    background-color: rgb(241, 40, 90);
+    border: rgb(241, 40, 90);
+    color: white;
+    font-weight: 900;  
+}
+.form2{
+    border: solid white;
+    background-color: white;
+    display: flex;
+    padding-right: 20px;
+    border-radius: 36px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: left;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#button-b{
+    cursor: pointer;
+    border-radius: 12px;
+    padding: 20px 25px 20px 20px;
+    background-color: rgb(241, 40, 90);
+    border: rgb(241, 40, 90);
+    color: white;
+    font-weight: 900;  
+}
+.form3{
+    border: solid white;
+    background-color: white;
+    display: flex;
+    padding-right: 20px;
+    border-radius: 36px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: left;
+    margin-right: 90px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#button-c{
+    cursor: pointer;
+    border-radius: 12px;
+    padding: 20px 25px 20px 20px;
+    background-color: rgb(241, 40, 90);
+    border: rgb(241, 40, 90);
+    color: white;
+    font-weight: 900;  
+}
+.Bigform{
+    display: flex;
+    justify-content: space-between;
+}
+#shoe1{
+    width: 180px;
+    height: 180px;
+    padding-right: 15px;
+    border-radius: 36px;
+}
+#shoe2{
+    width: 180px;
+    height: 180px;
+    padding-right: 15px;
+    border-radius: 36px;
+}
+#shoe3{
+    width: 180px;
+    height: 180px;
+    padding-right: 15px;
+    border-radius: 36px;
+}
+#products{
+    text-align: center;
+    font-size: 42px;
+    font-weight: 1400;
+    margin-top: 7%; 
+}
+.subtitle{
+    display: flex;
+    font-size: 32px;
+    margin: 0px 0px 0 30px;
+    
+    /* justify-content: space-between; */
+    
+}
+#mens{
+    color: rgb(241, 40, 90);
+}
+.Eight-shoes1{
+    display: inline-flex;
+}
+#image1{
+    width: 180px;
+    height: 180px;
+    padding-right: 15px;
+    border-radius: 36px;
+}
+#icon1{
+    width: 22px;
+    height: 20px;
+    margin-left: 2%;
+    font-weight: 800;
+}
+.block1{
+    border: solid rgb(246, 242, 242);
+    background-color: rgb(246, 242, 242);
+    padding-left: 20px;
+    border-radius: 8px;
+    width: 220px;
+    height: 360px;
+    margin-left: 100px;
+}
+#image2{
+    width: 180px;
+    height: 180px;
+    padding-right: 15px;
+    border-radius: 36px;
+}
+#icon2{
+    width: 22px;
+    height: 20px;
+    margin-left: 2%;
+    font-weight: 800;
+}
+
+.block2{
+    border: solid rgb(246, 242, 242);
+    background-color: rgb(246, 242, 242);
+    padding-left: 20px;
+    border-radius: 8px;
+    width: 220px;
+    height: 360px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    margin-left: 40px;
+}
+.block3{
+    border: solid rgb(246, 242, 242);
+    background-color: rgb(246, 242, 242);
+    padding-left: 20px;
+    border-radius: 8px;
+    width: 220px;
+    height: 360px;
+    margin-left: 40px;
+}
+#icon3{
+    width: 22px;
+    height: 20px;
+    margin-left: 2%;
+    font-weight: 800;
+}
+#image3{
+    width: 180px;
+    height: 180px;
+    padding-right: 15px;
+    border-radius: 36px;
+}
+.block4{
+    border: solid rgb(246, 242, 242);
+    background-color: rgb(246, 242, 242);
+    padding-left: 20px;
+    border-radius: 8px;
+    width: 220px;
+    height: 360px;
+    margin-left: 40px;
+}
+#icon4{
+    width: 22px;
+    height: 20px;
+    margin-left: 2%;
+    font-weight: 800;
+}
+#image4{
+    width: 180px;
+    height: 180px;
+    padding-right: 15px;
+    border-radius: 36px;
+}
+.Eight-shoes2{
+    display: inline-flex;
+    margin-top: 30px;
+}
+#image5{
+    width: 180px;
+    height: 180px;
+    padding-right: 15px;
+    border-radius: 36px;
+}
+#icon5{
+    width: 22px;
+    height: 20px;
+    margin-left: 2%;
+    font-weight: 800;
+}
+.block5{
+    border: solid rgb(246, 242, 242);
+    background-color: rgb(246, 242, 242);
+    padding-left: 20px;
+    border-radius: 8px;
+    width: 220px;
+    height: 360px;
+    margin-left: 100px;
+}
+#image6{
+    width: 180px;
+    height: 180px;
+    padding-right: 15px;
+    border-radius: 36px;
+}
+#icon6{
+    width: 22px;
+    height: 20px;
+    margin-left: 2%;
+    font-weight: 800;
+}
+.block6{
+    border: solid rgb(246, 242, 242);
+    background-color: rgb(246, 242, 242);
+    padding-left: 20px;
+    border-radius: 8px;
+    width: 220px;
+    height: 360px;
+    margin-left: 40px;
+}
+.block7{
+    border: solid rgb(246, 242, 242);
+    background-color: rgb(246, 242, 242);
+    padding-left: 20px;
+    border-radius: 8px;
+    width: 220px;
+    height: 360px;
+    margin-left: 40px;
+}
+#icon7{
+    width: 22px;
+    height: 20px;
+    margin-left: 2%;
+    font-weight: 800;
+}
+#image7{
+    width: 180px;
+    height: 180px;
+    padding-right: 15px;
+    border-radius: 36px;
+}
+.block8{
+    border: solid rgb(246, 242, 242);
+    background-color: rgb(246, 242, 242);
+    padding-left: 20px;
+    border-radius: 8px;
+    width: 220px;
+    height: 360px;
+    margin-left: 40px;
+}
+#icon8{
+    width: 22px;
+    height: 20px;
+    margin-left: 2%;
+    font-weight: 800;
+}
+#image8{
+    width: 180px;
+    height: 180px;
+    padding-right: 15px;
+    border-radius: 36px;
+}
+#button2{
+    border: 1px solid rgb(241, 40, 90);
+    color: rgb(241, 40, 90);
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-size: 120%;
+    margin-left: 50%;
+    margin-top: 2%;
+}
+#arrivals{
+        text-align: center;
+        font-size: 42px;
+        font-weight: 1400;
+        margin-top: 7%;
+}
+#image9{
+    width: 30%;
+}
+#text3{
+    font-weight: 700;
+}
+#text4{
+    color: rgb(241, 40, 90);
+}
+#button3{
+    cursor: pointer;
+    border-radius: 12px;
+    padding: 20px 25px 20px 20px;
+    background-color: rgb(241, 40, 90);
+    border: rgb(241, 40, 90);
+    color: white;
+    font-weight: 900; 
+}
+
