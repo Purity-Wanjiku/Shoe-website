@@ -412,4 +412,28 @@ border: solid;
     color: white;
     font-weight: 900; 
 }
-
+/* //last footrer */
+.footer{
+    background-color: rgb(241, 40, 90);
+    display: flex;
+    color: white;
+    margin-top: 2% ;
+}
+.footer-a{
+    display: flex;
+}
+.fourth{
+    display: flex;
+}
+.First ul li{
+    color: white;
+    display: flex;
+}
+.Second ul li{
+    color: white;
+    display: flex;
+}
+.Third ul li{
+    color: white;
+    display: flex;
+}
