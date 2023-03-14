@@ -120,6 +120,7 @@
 }
 
 .form1{
+    margin-right: 5%;
     border: solid white;
     background-color: white;
     display: flex;
@@ -144,10 +145,9 @@
     border: solid white;
     background-color: white;
     display: flex;
-    padding-right: 20px;
+    width: 80%;
+    margin-left: 10%;
     border-radius: 36px;
-    padding-top: 0px;
-    padding-bottom: 0px;
     text-align: left;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
@@ -170,6 +170,7 @@
     padding-bottom: 0px;
     text-align: left;
     margin-right: 90px;
+    margin-left: 20px;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 #button-c{
@@ -194,8 +195,11 @@
 #shoe2{
     width: 180px;
     height: 180px;
-    padding-right: 15px;
+    padding-right:15px;
     border-radius: 36px;
+}
+#shoe-2{
+    padding-right: 0px;
 }
 #shoe3{
     width: 180px;
@@ -222,9 +226,10 @@
     display: inline-flex;
 }
 #image1{
-    width: 180px;
+    width: 190px;
     height: 180px;
     padding-right: 15px;
+    margin-right: 0%;
     border-radius: 36px;
 }
 #icon1{
@@ -256,15 +261,14 @@
 }
 
 .block2{
-    border: solid rgb(246, 242, 242);
+    /* border: solid rgb(246, 242, 242); */
     background-color: rgb(246, 242, 242);
     padding-left: 20px;
     border-radius: 8px;
     width: 220px;
     height: 360px;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-    margin-left: 40px;
-    /* margin-right: 80px; */
+    margin-left: 12%;
 }
 .block3{
     border: solid rgb(246, 242, 242);
@@ -273,7 +277,8 @@
     border-radius: 8px;
     width: 220px;
     height: 360px;
-    margin-left: 40px;
+    margin-left:12%;
+
 }
 #icon3{
     width: 22px;
@@ -294,7 +299,7 @@
     border-radius: 8px;
     width: 220px;
     height: 360px;
-    margin-left: 40px;
+   margin-left: 12%;
 }
 #icon4{
     width: 22px;
@@ -431,7 +436,7 @@
     background-color: rgb(241, 40, 90);
     /* display: flex; */
     color: white;
-    margin: 5% 0 ;
+    margin-top: 2%;
     padding: 3% 2% ;
 }
 .footer-a{
@@ -443,10 +448,8 @@
 }
 .fourth{
     display: flex;
-    gap: 10em;
-    /* border: solid; */
+    gap: 4em;
     height: 330px;
-    /* width: 4600px; */
 }
 .block9{
     display: flex;
@@ -463,6 +466,18 @@
     border-radius: 12%;
     /* margin-right: 66px; */
 
+}
+#texts-2{
+    color: grey;
+}
+#text-2{
+    color: grey;
+}
+#text2{
+    color: rgb(241, 40, 90);
+    font-size: 180%;
+    margin-left: 0%;
+    /* text-align: center; */
 }
 .text-b{
     margin-left: 20%;
@@ -683,4 +698,59 @@ width: 33%;
 }
 #text-d{
     text-align: center;
+}
+
+/* media queries */
+.Bigform{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+@media only screen and (max-width:1004px){
+    .form1{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .form2{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .form3{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+.Eight-shoes1{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+@media only screen and(max-width:1388px){
+    .block1{
+grid-template-columns: repeat(1,1fr);
+    }
+    .block2{
+        grid-template-columns: repeat(1,1fr);
+            }
+            .block3{
+                grid-template-columns: repeat(1,1fr);
+                    }
+                    .block4{
+                        grid-template-columns: repeat(1,1fr);
+                        margin-left: -20%;
+                            }
+}
+
+.Eight-shoes2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+@media only screen and(max-width:1388px){
+    .block5{
+grid-template-columns: repeat(1,1fr);
+    }
+    .block6{
+        grid-template-columns: repeat(1,1fr);
+            }
+            .block7{
+                grid-template-columns: repeat(1,1fr);
+                    }
+                    .block8{
+                        grid-template-columns: repeat(1,1fr);
+                            }
 }
