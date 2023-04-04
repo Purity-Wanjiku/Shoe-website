@@ -3,14 +3,47 @@
     overflow-x: hidden;
     overflow-y: scroll;
 }
+/* .hamburger{
+    display: flex;
+    position: absolute;
+    top: 30px;
+    right: 2px;
+}
+bar{
+    width: 25px;
+    height: 3px;
+    margin: 2px 0;
+    background-color: #fff;
+    transition: transform 0.2s ease-in-out;
+} */
+/* .hamburger span{
+    display: flex;
+    width: 20%;
+    height: 5px;
+    background-color: white;
+    margin: 5px 0;
+} */
 #Home{
     color: rgb(241, 40, 90);
     
 }
+@media (max-width:768px){
+    #Home{
+        margin-right: -80px;
+    }}
+@media (max-width:768px){
+    .logofur{
+        display: flex;
+    }}
 #Logo{
     width: 10%;
     margin-top: 15px;
 }
+@media (max-width:768px){
+    #Logo{
+        width: 7%;
+        height: 45%;
+    }}
 
 .Logotxt{
     font-weight: 920;
@@ -19,6 +52,10 @@
     font-size: 20px;
     color: black;
 }
+@media (max-width:768px){
+    .Logotxt{
+        font-size: 92%;
+    }}
 #text2{
     color: white;
     margin-left: 180px;
@@ -32,9 +69,10 @@
 .nav{
     display: inline-flex;
 }
-#right{
-
-}
+@media (max-width:768px){
+    .nav ul li{
+        font-size: 102%;
+    }}
 .navbar li{
     list-style: none;
     display: inline-flex;
@@ -43,11 +81,27 @@
     font-weight: 520;
     margin-left: 100px;
 }
+@media (max-width:768px){
+    .nav1 ul li{
+        font-size: 102%;
+    }}
 .navbar{
     position: absolute;
     margin: 0px 20px 10px 0;
     padding: 20px 0px;
 }
+@media (max-width:768px){
+    #about{
+        margin-left: -2px;
+    }}
+    @media (max-width:768px){
+        #contact{
+            margin-left: -2px;
+        }}
+        @media (max-width:768px){
+            #login{
+        margin-left: -1px;
+            }}
 #Signup{
     border: 1px solid grey;
     border-radius: 4px;
@@ -58,20 +112,36 @@
     width: 80px;
     text-align: center;
 }
-#heading{
-    margin-top: 80px;
-}
 #fix{
-    color: rgb(241, 40, 90);
+    color: rgb(122, 65, 79);
 }
 #heading{
     font-size: 32px;
+    margin-top: 80px;
     font-weight: 1400;
     padding-left: 60px;
 }
+@media (max-width:768px){
+    #heading{
+        font-size: 8px;
+    }}
+@media (min-width: 280px) and (max-width:479px){
+    #heading{
+        font-size: 40%;
+        margin-left: -32px;
+    }}
 .heading{
     padding-left: 60px;
 }
+@media (min-width: 280px) and (max-width:479px){
+    .heading{
+        font-size: 50%;
+        margin-left: -32px;
+    }}
+    @media (max-width:768px){
+        .heading{
+            font-size: small;
+        }}
 .button{
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
     cursor: pointer;
@@ -82,6 +152,17 @@
     color: white;
     border: rgb(241, 40, 90);
 }
+@media (min-width: 280px) and (max-width:479px){
+    .button{
+        margin-left: -32px;
+        width: 29%;
+        height: 12px;
+    }}
+    @media (max-width:768px){
+        .button{
+           padding: 2px 5px;
+           font-size: 10px; 
+        }}
 #icons6{
     padding-left: 80px;
     font-size: small;
@@ -95,11 +176,27 @@
 #icons5{
     color: white;
 }
+@media (max-width:768px){
+    #icons5{
+        font-size: 17px;
+    }}
+@media (min-width: 280px) and (max-width:479px){
+    #icons5{
+        width: 2px;
+    }}
 #icons7{
     padding-left: 120px;
     font-size: medium;
 
 }
+@media (min-width: 280px) and (max-width:479px){
+    #txt-button1{
+        margin-top: -2px;
+        font-size: 8px;
+        width: 50%;
+        height: 40px;
+        margin-left: -17px;
+    }}
 #button1{
     padding-left: 12px;
     cursor: pointer;
@@ -109,6 +206,14 @@
     background-color: rgb(241, 40, 90);
     border: rgb(241, 40, 90);
 }
+@media (max-width:768px){
+    #button1{
+        padding: 8px 3px 1px;
+    }}
+@media (min-width: 280px) and (max-width:479px){
+    #button1{
+        font-size: smaller;
+    }}
 .egg-like{
     float: right;
     width:500px;
@@ -116,6 +221,16 @@
     background-color: rgb(241, 40, 90);
     border-radius: 350px / 250px 0px 0px 750px;
 }
+@media (min-width: 280px) and (max-width:479px){
+    .egg-like{
+        width: 40px;
+        height: 80px;
+    }}
+    @media (max-width:768px){
+        .egg-like{
+            width: 30%;
+            height: 470px;
+        }}
 #Sports{
     border-radius: 16px;
     width: 110%;
@@ -125,11 +240,30 @@
     margin-left: -150px;
     transform: rotate(30deg);
 }
+@media (min-width: 280px) and (max-width:479px){
+    #Sports{
+        width: 90%;
+        height: 25px;
+        margin-top: 40px;
+        margin-left: 0px;
+    }}
+    @media (max-width:768px){
+        #Sports{
+            margin-left: -50px;
+            margin-top: 250px;
+            width: 50%;
+            height: 25%;
+        }}
 #collection{
     text-align: center;
     font-size: 42px;
     font-weight: 1400;
     margin-top: 7%;
+}
+@media (min-width: 280px) and (max-width:479px){
+    #collection{
+        font-size: small;
+    }
 }
 
 .form1{
@@ -137,7 +271,8 @@
     border: solid white;
     background-color: white;
     display: flex;
-    width: 30%;
+    width: 80%;
+    height: 182px;
     padding-right: 20px;
     border-radius: 36px;
     padding-top: 0px;
@@ -146,6 +281,14 @@
     margin-left: 80px;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
+@media (min-width: 280px) and (max-width:479px){
+.form1{
+    width: 50%;
+    margin-bottom: 20px;
+    border-radius: 18px;
+    height: 80px;
+}
+} 
 #image1{
     /* width: 50%; */
     width: 190px;
@@ -163,16 +306,53 @@
     color: white;
     font-weight: 900;  
 }
+@media (min-width: 280px) and (max-width:479px){
+#button-a{
+padding: 2px 4px;
+font-size: 60%;
+}
+}@media (min-width: 280px) and (max-width:479px){
+    #shoe-2{
+        font-size: 12px;
+        margin-left: 100px;
+        margin-top: -100px;
+    }
+    }
 .form2{
     border: solid white;
     background-color: white;
-
+    height: 182px;
     display: flex;
-    width: 30%;
+    width: 80%;
+    margin-left: 50px;
     border-radius: 36px;
     text-align: left;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
+@media (min-width: 280px) and (max-width:479px){
+.form2{
+    margin-bottom: 20px;
+    border-radius: 18px;
+    width: 55%;
+    margin-left: 80px;
+    height: 88px;
+    display: inline-block;
+}
+}
+@media (min-width: 280px) and (max-width:479px){
+    .Text2{
+        font-size: 12px;
+        margin-left: 100px;
+        margin-top: -90px;
+    }
+}
+@media (min-width: 280px) and (max-width:479px){
+.Text1{
+    /* padding-left: 50px; */
+    font-size: 10px;
+        margin-left: 10px;
+        margin-top: -10px;
+}}
 #button-b{
     cursor: pointer;
     border-radius: 12px;
@@ -182,19 +362,34 @@
     color: white;
     font-weight: 900;  
 }
+@media (min-width: 280px) and (max-width:479px){
+    #button-b{
+    padding: 2px 4px;
+    font-size: 60%;
+    }}
 .form3{
     border: solid white;
     background-color: white;
     display: flex;
     padding-right: 20px;
-    width: 30%;
+    width: 80%;
+    height: 182px;
     border-radius: 36px;
     padding-top: 0px;
     padding-bottom: 0px;
     text-align: left;
     margin-right: 90px;
-    margin-left: 40px;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+@media (min-width: 280px) and (max-width:479px){
+.form3{
+    margin-bottom: 20px;
+    border-radius: 18px;
+    width: 55%;
+    margin-left: 80px;
+    height: 88px;
+    display: inline-block;
+}
 }
 #button-c{
     cursor: pointer;
@@ -205,9 +400,26 @@
     color: white;
     font-weight: 900;  
 }
+@media (min-width: 280px) and (max-width:479px){
+    #button-c{
+    padding: 2px 4px;
+    font-size: 60%;
+    }}
 .Bigform{
-    display: flex;
-    justify-content: space-between;
+    display: grid;  
+    grid-template-columns: repeat(3,1fr); 
+}
+@media (max-width:768px){
+    .Bigform{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }}
+@media (min-width: 280px) and (max-width:479px){
+    .Bigform{
+        margin-left: -70px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
 }
 #shoe1{
     width: 180px;
@@ -215,32 +427,62 @@
     padding-right: 15px;
     border-radius: 36px;
 }
+@media (min-width: 280px) and (max-width:479px){
+    #shoe1{
+        width: 85%;
+        border-radius: 10px;
+        height: 101%;
+    }
+}
 #shoe2{
     width: 180px;
-    height: 180px;
-    padding-right:15px;
+    height: 160px;
     border-radius: 36px;
 }
-#shoe-2{
-    padding-right: 0px;
+
+@media (min-width: 280px) and (max-width:479px){
+#shoe2{
+    width: 35%;
+    margin-left: 2px;
+    border-radius: 10px;
+    height: 2%;
+}
 }
 #shoe3{
     width: 180px;
     height: 180px;
     padding-right: 15px;
     border-radius: 36px;
-}
+}@media (min-width: 280px) and (max-width:479px){
+    #shoe3{
+        width: 35%;
+        margin-left: 2px;
+        border-radius: 10px;
+        height: 1%;
+    }
+    }
 #products{
     text-align: center;
     font-size: 42px;
     font-weight: 1400;
     margin-top: 7%; 
 }
+@media (min-width: 280px) and (max-width:479px){
+#products{
+    font-size: small;
+}
+}
 .subtitle{
     display: flex;
     font-size: 22px;
     gap: 2em;
     margin: 0px 0px 0px 100px;
+}
+@media (min-width: 280px) and (max-width:479px){
+.subtitle{
+    font-size: 5px;
+    margin-left: 12px;
+}
 }
 #mens{
     color: rgb(241, 40, 90);
@@ -250,6 +492,12 @@
     /* display: inline-flex; */
     grid-template-columns: repeat(4,1fr);
 }
+@media (min-width: 280px) and (max-width:479px){
+    .Eight-shoes1{
+    size: 200%;
+    }
+}
+
 #icon1{
     width: 22px;
     height: 20px;
@@ -264,6 +512,11 @@
     width: 220px;
     height: 360px;
     margin-left: 100px;
+}
+@media (min-width: 280px) and (max-width:479px){
+.block1{
+    /* width: 5%; */
+}
 }
 #image2{
     width: 180px;
@@ -687,6 +940,11 @@ font-size: 250%;
     background-color: rgb(241, 40, 90);
     border-radius: 1550px / 0px 1250px 4550px 1500px;
 }
+@media (max-width:768px){
+    #second-color{
+        width: 30%;
+        height: 400px;
+    }}
 .nav1{
     display: inline-flex;
     margin-left: -280px; 
@@ -733,6 +991,10 @@ font-size: 250%;
     padding: 20% 0;
     background-color: whitesmoke;
 }
+@media (max-width:768px){
+    #image11{
+        margin-left: -150px;
+    }}
 .smallbar li{
     margin-left: -60px;
   
@@ -750,12 +1012,11 @@ width: 33%;
 }
 .text-block{
     height: 60%;
-    /* margin-top: -2%; */
-
 }
-.shoes-a{
-    /* margin-right: 50%; */
-}
+@media (max-width:768px){
+    .text-block{
+        font-size: 12px;
+    }}
 #heading-a{
     color: rgb(241, 40, 90);
 }
